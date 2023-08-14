@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+.datosJugador{
+  /*alinear todo en columnas*/
+  display: flex;
+  flex-direction: column;
+  /*menos ancho*/
+  width: 50%;
+  /*centrar*/
+  margin: auto;
+  border: 3px solid green;
+  padding: 10px;
+}
+.datos{
+  /*cursiva*/
+  font-style: italic;
+  /*negrita*/
+  font-weight: bold;
+  padding: 15px;
+}
+.boton{
+  margin-top: 20px;
+  width: 200px;
+  height: 30px;
+  background-color: #73286d;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.op1, .op2, .op3{
+  margin-top: 20px;
+  width: 200px;
+  height: 30px;
+  background-color: #005d92;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.historial {
+  display: none;
+}
+.juego{
+  display: none;
+}
+.preguntas{
+  display: none;
+}
+.final{
+  display: none;
+}
+
+.histUsuario, .respuestas {
+  /*colocar lo que haya dentro por columnas*/
+  display: flex;
+  flex-direction: row;
+  
+  /*centrar*/
+  align-items: center;
+  justify-content: center;
+}
+
+.histUsuario{
+  border-bottom: 3px solid green;
+}
+
+._1_al_5, ._6_al_10, .jugador{
+  /*todo alineado a la izquierda*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 30px;
+}
+
+.final {
+  display: none;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  /*redondear*/
+  border-radius: 10%;
+}
+
+.dato {
+  /*formato de texto, fuente comic sans tamaño 15*/
+  font-family: 'Arial', cursive, sans-serif;
+  font-size: 15px;
+  /*reducir ancho*/
+  width: 50%;
+  /*centrar*/
+  margin: auto;
+}
+
+h1, h2, h3, h4, label {
+  /*formato de texto, fuente comic sans tamaño 15*/
+  font-family: 'Arial', cursive, sans-serif;
+}
